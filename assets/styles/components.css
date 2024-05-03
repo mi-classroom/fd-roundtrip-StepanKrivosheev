@@ -17,10 +17,7 @@ header {
     img{
         margin: var(--m);
     }
-	p:last-child {
-		display: inline;
-		color: var(--color-yellow);
-	}
+	
 }
 
 .card {
@@ -50,9 +47,10 @@ header {
 		}
 	}
 	img {
+		object-fit:cover;
 		border-radius: var(--br-medium) 0px 0px var(--br-medium);
 		max-width: 50%;
-        object-fit:cover;
+        
 	}
 }
 
@@ -62,6 +60,10 @@ header {
 	align-content: center;
 
 	button {
+		background-color: var(--color-off-white);
+		border-color: var(--color-off-whitey);
+		margin: var(--xxs);
+		padding: var(--xxxs);
 		border-radius: var(--br-small);
 	}
 	h2 {

@@ -9,6 +9,7 @@
   --color-black: #000000;
   --color-white: #FFFFFF;
   --color-grey: #B3ADA5;
+  --color-off-white: #fef9f3;
 
 /*--------Sizes-----*/
   --xxxs: 5px;
@@ -29,5 +30,5 @@
   
   /*-------Border Radius*/
   --br-small: 5px;
-  --br-medium: 20px
+  --br-medium: 8px
 }
